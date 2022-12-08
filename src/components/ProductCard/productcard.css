@@ -1,0 +1,108 @@
+.product-card{
+    height: 22rem;
+    width: 14rem;
+    border: 1px solid rgb(182, 208, 211);
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+}
+
+.product-card:hover{
+    box-shadow: rgb(140, 165, 229) 0px 3px 8px;
+}
+
+.product-img{
+    height: 9rem;
+    max-width:100%;
+    object-fit: cover;
+    /* position: relative; */
+    /* border: 1px solid rgb(228, 221, 221); */
+}
+
+.product-name{
+    align-self: flex-start;
+    margin-left: 0.5rem;
+}
+
+.product-prices{
+    align-self: flex-start;
+    margin-left: 0.5rem;
+}
+
+.product-prices-details{
+    margin-right: 0.5rem;
+}
+
+.discounted-price{
+    font-weight: 500;
+    font-size: large;
+}
+
+.original-price{
+    text-decoration: line-through;
+}
+
+.discount-percentage{
+    color: green;
+    font-weight: 500;
+}
+
+.product-card-btn{
+    width: 80%;
+    height: 2rem;
+    border-radius: 2rem;
+    /* margin: 0.5rem 0; */
+    cursor: pointer;
+    color: white;
+    border: none;
+}
+
+.product-card-cart-btn{
+    background-color: #00439c;
+}
+
+.product-card-wishlist-btn{
+    background-color: #d63d00;
+}
+
+.product-rating{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 1rem;
+    left: 0;
+    /* width: 2rem; */
+    padding: 0.2rem;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    background-color: #00439c;
+    color: white;
+}
+
+.star{
+    color: goldenrod;
+}
+
+.overlay-text{
+    position: absolute;
+    top: 5rem;
+    background-color: red;
+    color: white;
+    padding: 0.5rem;
+}
+
+.overlay-card{
+    opacity: 0.5;
+}
+
+.overlay-card:hover{
+    box-shadow: none;
+}
+
+.overlay-btn{
+    cursor:not-allowed;
+}

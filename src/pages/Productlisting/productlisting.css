@@ -1,0 +1,17 @@
+.product-layout {
+    display: grid;
+    grid-template-columns: 15rem 3fr;
+    grid-template-areas: "aside  product";
+    gap: 1rem;
+  }
+
+  .title{
+    text-align: center;
+  }
+
+  .product-component{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem 1rem;
+    margin: 2rem;
+  }
