@@ -8,8 +8,9 @@ export default function FilterComponent(){
     return(
         <aside>
             <div className='top'>
+                
             <h2>Filters</h2>
-            <button
+            <button className='clear-btn'
             onClick={()=>productDispatch({type: "CLEAR"})}>Clear all</button>
             </div>
 

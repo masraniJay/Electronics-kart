@@ -19,8 +19,6 @@ export default function HomePage() {
     useEffect(() => {
       fetchCategories();   
     }, [])
-
-    console.log(categories)
     
    
   return (
@@ -45,13 +43,13 @@ export default function HomePage() {
 
       {
         categories.map((category)=>
-            <Link to='/products'>
+            <Link to='/products' key={category._id}>
             <div className="card" onClick={()=>{
               productDispatch({type: "CLEAR"});
               productDispatch({type: category.categoryName.toUpperCase()});
               }}>
                 <img className="category-img" src={category.image} alt='category'/>
-                <h5>{category.categoryName}</h5>
+                <h5 className="category-name">{category.categoryName}</h5>
             </div>
             </Link>
         )

@@ -15,7 +15,6 @@ export default function Productlisting() {
   const fetchProducts = async() =>{
     const { data : { products } } = await axios.get('/api/products');
     setproducts(products);
-    console.log(products);
   }
 
   useEffect(() => {
@@ -34,7 +33,7 @@ export default function Productlisting() {
         <div className='product-component'>
             {
               categorizedProducts.map((product)=>
-                <ProductCard product={product} />
+                <ProductCard product={product} key={product._id}/>
               )
             }
         </div>

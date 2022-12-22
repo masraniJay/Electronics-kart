@@ -1,0 +1,28 @@
+.price-card{
+    display: flex;
+    flex-direction: column;
+    width: 25rem;
+    height: 20rem;
+    border: 1px solid rgb(182, 208, 211);
+    padding: 0.5rem;
+    font-weight: bold;
+}
+
+.price-card-details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.price-card-text{
+    font-weight: normal;
+}
+
+.price-card-btn{
+    height: 2rem;
+    background-color: #00439c;
+    color: white;
+    border: none;
+    /* font-size: large; */
+    cursor: pointer;
+}
