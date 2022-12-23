@@ -1,0 +1,8 @@
+.invalid-page{
+    display: flex;
+    justify-content: center;
+}
+
+.invalid-page-img{
+    height: 90vh;
+}
