@@ -18,8 +18,6 @@
     height: 9rem;
     max-width:100%;
     object-fit: cover;
-    /* position: relative; */
-    /* border: 1px solid rgb(228, 221, 221); */
 }
 
 .product-name{
@@ -54,7 +52,6 @@
     width: 80%;
     height: 2rem;
     border-radius: 2rem;
-    /* margin: 0.5rem 0; */
     cursor: pointer;
     color: white;
     border: none;
@@ -75,7 +72,6 @@
     position: absolute;
     top: 1rem;
     left: 0;
-    /* width: 2rem; */
     padding: 0.2rem;
     border-top-right-radius: 1rem;
     border-bottom-right-radius: 1rem;

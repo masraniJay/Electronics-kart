@@ -10,7 +10,7 @@ export default function Wishlist(){
 
     const { wishlist, setWishlist } = useWishlist();
 
-    useEffect(()=>{ fetchWishlist(token, setWishlist) }, []);
+    useEffect(()=>{ fetchWishlist(token, setWishlist) }, [setWishlist]);
 
     return(
         <div className="wishlist-layout">

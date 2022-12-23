@@ -1,5 +1,4 @@
 import "./cartcard.css";
-// import {products}  from '../../backend/db/products';
 import StarIcon from "@mui/icons-material/Star";
 import {
   removeFromCart,
@@ -7,8 +6,6 @@ import {
 } from "../../Utilities/CartServices";
 import { addToWishlist } from '../../Utilities/WishlistServices';
 import { useCart, useWishlist } from "../../contexts";
-
-// const product = products.find((e)=>e.name==="Apple iPhone 14 128GB");
 
 export default function CartCard({ product }) {
   const { setCart } = useCart();

@@ -21,7 +21,7 @@ export default function CartPage(){
 
     useEffect(()=>{
         fetchCart();
-    }, [])
+    }, []);
 
     return(<>
 
