@@ -10,7 +10,6 @@
 
 .cart-card-img{
     height: 10rem;
-    /* width: 6rem; */
 }
 
 .cart-card-details{
@@ -23,7 +22,6 @@
 }
 
 .cart-card-quantity{
-    /* outline: 1px black solid; */
     width: 6rem;
     display: flex;
     justify-content: space-between;
