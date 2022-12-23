@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import TwitterIcon from "@mui/icons-material/Twitter";
-import InstagramIcon from "@mui/icons-material/Instagram";
 
 export default function Footer() {
   return (
@@ -57,16 +56,6 @@ export default function Footer() {
           >
             <li>
               <TwitterIcon />
-            </li>
-          </a>
-          <a
-            href="https://www.linkedin.com/in/jay-masrani-71a569192/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            
-            <li>
-              <InstagramIcon />
             </li>
           </a>
         </div>
